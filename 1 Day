@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        String nama = "Melani Raita";
+        String NIM = "D0223028";
+        String kelas = "Informatika C";
+        String kampus = "Universitas Sulawesi Barat";
+        String Tgllahir= "14-04-2005";
+        String T4tinggal = "Mamasa";
+        
+        
+        System.out.println (" Nama            : " + nama );
+        System.out.println (" NIM             : " + NIM);
+        System.out.println (" Kelas           : " + kelas);
+        System.out.println (" Kampus          : " + kampus);
+        System.out.println (" Tanggal Lahir   : " + Tgllahir);
+        System.out.println (" Tempat Tinggal  : " + T4tinggal );
+        
+    }
+}

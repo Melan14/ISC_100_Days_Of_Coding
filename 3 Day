@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main{
+    
+    public static void main(String[] args) {
+        String MK1 = "Fisika Elektronika";
+        String MK2 = "Matematika Dasar";
+        String MK3 = "Dasar-dasar Pemrograman";
+        String MK4 = "PSTI";
+        String MK5 = "Bahasa Indonesia";
+        String MK6 = "Pendidikan Kewarganegaraan";
+        String MK7 = "Pendidikan Pancasila";
+        String MK8 = "Pendidikan Agama Kristen";
+   
+    
+    }
+}

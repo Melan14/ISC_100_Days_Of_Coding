@@ -1,0 +1,27 @@
+package Melan;
+import java.util.Scanner;
+
+public class Main{
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        // Days4_inputan: Nama,Kelas,Nim
+        
+        System.out.println(" Input Biodata dibawah ini ");
+        System.out.print(" Input Nama : ");
+        String a = input.nextLine();
+        System.out.print(" Input Kelas : ");
+        String b = input.nextLine();
+        System.out.print(" Input Nim : ");
+        String c = input.nextLine(); 
+
+        System.out.println ();
+        
+        System.out.println (" Hasil inputan anda");
+        System.out.println ("Nama : " + a );
+        System.out.println ("Kelas : " + b);
+        System.out.println ("Nim : " + c);
+    }
+    
+}

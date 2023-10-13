@@ -1,0 +1,35 @@
+package Melan;
+import java.util.Scanner;
+
+public class Main{
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        // Days5_input&output
+        
+        System.out.print (" Masukkan No Peserta   : " );
+        String a = input.nextLine(); 
+        System.out.print (" Masukkan Nama         : "  );
+        String b = input.nextLine(); 
+        System.out.print (" Masukkan Jenis Kelamin: " );
+        String c = input.nextLine();
+        System.out.print (" Masukkan Umur         : " );
+        byte d = input.nextByte();
+        System.out.print (" Masukkan Berat Badan  : "  );
+        float e = input.nextFloat();
+        System.out.print (" Masukkan Status Keaktifan : " );
+        boolean f = input.nextBoolean();
+        
+        System.out.println();
+        
+        System.out.println(" No Peserta   : " + a);
+        System.out.println(" Nama         : " + b);
+        System.out.println(" Jenis Kelamin: " + c);
+        System.out.println(" Umur         : " + d);
+        System.out.println(" Berat Badan  : " + e);
+        System.out.println(" Aktif        : " + f);
+        
+        
+    }
+}}

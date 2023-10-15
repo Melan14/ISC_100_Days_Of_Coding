@@ -1,0 +1,27 @@
+package Melan;
+import java.util.Scanner;
+
+public class Main{
+    
+    public static void main(String[] args) {
+        
+        //operasi penugasan6
+        
+        int a,b;
+        
+        a = 10;
+        b = 5;
+        
+        a +=b;
+        a -=b;
+        System.out.println(a);
+        b *=a;
+        System.out.println(b);
+        b /=a;
+        System.out.println(b);
+        a %=b;
+        System.out.println(a);
+        
+        
+    }
+}

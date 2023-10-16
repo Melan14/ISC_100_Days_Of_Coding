@@ -1,0 +1,33 @@
+package Melan;
+import java.util.Scanner;
+
+public class Main{
+    
+    public static void main(String[] args) {
+        
+        //Operator Perbandingan
+        
+        byte kakak = 21;
+        byte adek  = 18;
+        
+        System.out.println ("1. Usia KAKAK sama dengan ADEK");
+        System.out.println( kakak == adek);
+        
+        System.out.println ("2. Usia KAKAK tidak sama dengan ADEK " );
+        System.out.println( kakak !=  adek);
+        
+        System.out.println ("3. Usia KAKAK lebih dari ADEK");
+        System.out.println( kakak > adek);
+        
+        System.out.println ("4. Usia KAKAK lebih dari / sama dengan ADEK");
+        System.out.println( kakak >= adek);
+        
+        System.out.println ("5. Usia KAKAK kurang dari ADEK");
+        System.out.println( kakak < adek);
+        
+        System.out.println ("6. Usia KAKAK kurang dari / sama dengan ADEK");
+        System.out.println( kakak <= adek);
+        
+        
+    }
+}

@@ -1,0 +1,29 @@
+package Melan;
+import java.util.Scanner;
+
+public class Main{
+    
+    public static void main(String[] args) {
+        
+        //Operator_Logika9
+        
+        boolean M = true;
+        boolean J = false;
+        
+        System.out.print(" OR ->  ");
+        boolean a = M || J;
+        System.out.println(" M atau J : " + a);
+        
+        System.out.print(" AND -> ");
+        boolean b = M && J;
+        System.out.println(" M dan J : " + b);
+        
+        System.out.print("NOT -> ");
+        boolean c = true;
+        System.out.println(" M bukan J : " + !c);
+        
+        System.out.print("Apakah saya cantik ? ");
+        System.out.println( M && J || !J );
+        
+    }
+}

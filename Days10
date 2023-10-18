@@ -1,0 +1,38 @@
+package Melan;
+import java.util.Scanner;
+
+public class Main{
+    
+    public static void main(String[] args) {
+        
+        //Operator_bitwise10
+        
+        String binary [ ] = {
+            "0000","0001","0010","0011","0100","0110","0111",
+            "1000","1001","1010","1011","1100","1101","1110","1111"
+        };
+        
+        int I = 4;
+        int U = 7;
+        System.out.println(" binary I = " + binary [I]);
+        System.out.println(" binary U = " + binary [U]);
+        
+        // bitwise_OR
+        int or = I | U;
+        System.out.println(" binary or =  " + binary [or]);
+        
+        // bitwise_AND
+        int and = I & U;
+        System.out.println(" binary and = " + binary [and]);
+        
+        // bitwise_XOR
+        int oxr = I ^U;
+        System.out.println(" binary oxr = " + binary [oxr]);
+        
+        // bitwise_NOT
+        int not = (~I & U) | (I & ~U);
+        System.out.println(" binary not = " + binary [not]);
+        
+        
+    }
+}

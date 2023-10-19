@@ -1,0 +1,21 @@
+package Melan;
+import java.util.Scanner;
+
+public class Main{
+    
+    public static void main(String[] args) {
+        Scanner melan = new Scanner (System.in);
+        
+        //Latihan operator logika11
+        
+        int jawab;
+        boolean hasil;
+        
+        System.out.print(" nilai 22×7 =  " );
+        jawab = melan.nextInt();
+        
+        hasil = (jawab == 154);
+        System.out.println(" jawaban anda " + hasil);
+        
+    }
+}

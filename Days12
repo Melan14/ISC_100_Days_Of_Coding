@@ -1,0 +1,21 @@
+package Melan;
+import java.util.Scanner;
+
+public class Main{
+    
+    public static void main(String[] args) {
+        Scanner mel = new Scanner (System.in);
+
+        System.out.println(" TOKOH CAHYA ");
+        
+        System.out.print(" Jumlah Kemeja : ");
+        byte kemeja = mel.nextByte();
+        System.out.print(" Jumlah kotak : ");
+        byte kotak = mel.nextByte();
+        
+        System.out.println(" Jumlah kotak yang terisi : " + kotak);
+        
+        int sisa = kemeja - kotak;
+        System.out.println(" Sisa kemeja yang belum dikemas : " + sisa);
+    }
+}

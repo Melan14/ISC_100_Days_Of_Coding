@@ -1,0 +1,16 @@
+package Melan;
+import java.util.Scanner;
+
+public class Main{
+    
+    public static void main(String[] args) {
+        
+        //aritmatika13
+        
+        byte a = 10, b = 10, c = 10, d = 10, e = 10, f = 10;
+        int jumlah;
+        
+        jumlah = a + b - c * d / e % f;
+        System.out.print(jumlah);
+    }
+}}

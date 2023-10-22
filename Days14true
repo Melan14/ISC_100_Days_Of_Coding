@@ -1,0 +1,26 @@
+package Melan;
+import java.util.Scanner;
+
+public class Main{
+    
+    public static void main(String[] args) {
+        //operator percabangan14
+
+        byte Uayah = 48;
+        byte Uibu = 45;
+        
+        System.out.println(" Jika benar maka tampilkanlah pernyataan dibawah ini ");
+        
+        if ( Uayah > 48 ) {
+            System.out.println(" Usia ayah lebih besar dari 48  ");
+            
+            
+        }if (Uibu == Uayah){
+            System.out.println("Usia ayah sama dengan usia ibu");
+            
+        }else{
+            System.out.println("semua salah");
+        }
+            
+    }
+}

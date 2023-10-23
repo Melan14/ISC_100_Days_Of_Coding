@@ -1,0 +1,30 @@
+package Melan;
+import java.util.Scanner;
+
+public class Main{
+    
+    public static void main(String[] args) {
+        Scanner wa = new Scanner (System.in);
+        
+        System.out.println("Rata-ratakan nilai MK ");
+        System.out.print("Masukkan nilai MD : ");
+        float a = wa.nextFloat();
+        
+        System.out.print("Masukkan nilai DDP : ");
+        float b = wa.nextFloat();
+        
+        System.out.print("Masukkan nilai PSTI : ");
+        float c = wa.nextFloat();
+        
+        float x = a + b + c;
+        
+        if ( a == b){
+            System.out.println("Nilai rata-rata MK = " + a );
+    } else if ( b >= c){
+        System.out.print("Nilai rata-rata MK =" + c);
+    }else{
+        System.out.print("Nilai rata-rata MK =");
+        System.out.println(x/3);
+    }
+    }       
+}

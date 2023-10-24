@@ -1,0 +1,22 @@
+package Melan;
+import java.util.Scanner;
+
+public class Main{
+    
+    public static void main(String[] args) {
+
+//Swich16
+
+        System.out.print("Jumlah MK saya disemester 1 = ");
+        
+        int jumlah = 8;
+        switch (jumlah){
+            case 5 :
+            System.out.println("6");
+          
+            case 8 :
+            System.out.print("8");
+        }
+        
+    }       
+}

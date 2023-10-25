@@ -1,0 +1,26 @@
+package Melan;
+import java.util.Scanner;
+
+public class Main{
+    
+    public static void main(String[] args) {
+        Scanner mel = new Scanner (System.in);
+        
+        System.out.print("Sekarang Jam ");
+        double a = mel.nextDouble();
+        
+        if ( a > 05.00 && a < 10.00){
+            System.out.println("Pagi");
+        }else if ( a > 11.00 && a < 13.00){
+            System.out.println("Siang");
+        }else if ( a > 14.00 && a < 18.00){
+            System.out.println("Sore");
+        }else if ( a > 19.00 && a < 24.00){
+            System.out.println("Malam");
+       }else if ( a > 01.00 && a < 4){
+            System.out.println( "Dini Hari");
+      }else {
+          System.out.println("Tidak ada yang benar");
+      }
+    }       
+}

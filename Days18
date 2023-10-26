@@ -1,0 +1,24 @@
+package Melan;
+import java.util.Scanner;
+
+public class Main{
+    
+    public static void main(String[] args) {
+        
+        System.out.println("Nama lengkap saya adalah");
+        
+        String nama1 = "Melani";
+        String nama2 = "Raita";
+        
+        if (nama1 == "Raita"){
+            if (nama2 == "Melani"){
+                System.out.println("Raita Melani");
+            }else{
+                System.out.println("Melan");
+            }
+           }else{
+               System.out.println("Melani Raita");
+            
+        }
+    }      
+}

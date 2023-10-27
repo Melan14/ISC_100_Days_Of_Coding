@@ -1,0 +1,33 @@
+package Days19;
+
+public class Days19 {
+    public static void main(String[] args) {
+
+//SwitchCase2
+        
+        System.out.println("Mata Kuliah Semester 1 Informatika C");
+        
+       int MK = 1;
+        switch (MK){
+            case 1 :
+                System.out.println("Matematika Dasar");
+            case 2 :
+                System.out.println("Fisika Elektronika");
+            case 3 :
+                System.out.println("Dasar-Dasar Pemrograman");
+            case 4 :
+                System.out.println("Sistem Teknologi dan Informasi");
+            case 5 :
+                System.out.println("Bahasa Indonesia");
+            case 6 :
+                System.out.println("Pendidikan Pancasila");
+            case 7 :
+                System.out.println("Pendidikan KewargaNegaraan");
+            case 8 :
+                System.out.println("Pendidikan Agama Kristen");
+             }
+        }
+    }
+    
+
+ 

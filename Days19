@@ -1,0 +1,42 @@
+package switchcase;
+
+import java.util.Scanner;
+
+public class SwitchCase {
+    public static void main(String[] args) {
+        Scanner mel = new Scanner (System.in);
+        
+        System.out.println("Mata Kuliah yang Masuk Hari ini adalah");
+        int MK = mel.nextInt();
+        
+       
+        switch (MK){
+            case 1 :
+                System.out.println("Matematika Dasar");
+                break;
+            case 2 :
+                System.out.println("Fisika Elektronika");
+                break;
+            case 3 :
+                System.out.println("Dasar-Dasar Pemrograman");
+                break;
+            case 4 :
+                System.out.println("Sistem Teknologi dan Informasi");
+                break;
+            case 5 :
+                System.out.println("Bahasa Indonesia");
+                break;
+            case 6 :
+                System.out.println("Pendidikan Pancasila");
+                break;
+            case 7 :
+                System.out.println("Pendidikan KewargaNegaraan");
+                break;
+            case 8 :
+                System.out.println("Pendidikan Agama Kristen");
+             }
+        }
+    }
+    
+
+ 

@@ -1,0 +1,47 @@
+package javaapplication4;
+
+import java.util.Scanner;
+public class JavaApplication4 {
+    public static void main(String[] args) {
+         Scanner mel = new Scanner (System.in);
+        
+        
+        System.out.println("Rumus Geometri");
+        System.out.print("yang akan digunakan adalah rumus ke-");
+        int geometri = mel.nextInt();
+        
+        int s=12, a=10, t=5, r=15, p=4, l=2;
+        double o=0.5, phi=3.14;
+      
+        //persegi
+        int b = s*s;
+        
+        //segitiga
+        double c = 0.5*a*t;
+        
+        //Lingkaran
+        double d = phi*r*r;
+        
+        //persegipanjang
+        int e = p*l;
+        
+      switch (geometri){
+            case 1 :
+                System.out.println("Rumus Persegi");
+                System.out.println("hasil = " + b);
+                break;
+            case 2 :
+                System.out.println("Rumus Segi Tiga ");
+                System.out.println("hasil = " + c);
+                break;
+            case 3 :
+                System.out.println("Rumus Lingkaran");
+                System.out.println("hasil = " + d);
+                break;
+            case 4 :
+                System.out.println("Rumus Persegi Panjang");
+                System.out.println("hasil = " + e);
+              break;                     
+      }
+    }
+}

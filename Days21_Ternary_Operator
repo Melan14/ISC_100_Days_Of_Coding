@@ -1,0 +1,21 @@
+package days21;
+
+import java.util.Scanner;
+public class Days21 {
+    public static void main(String[] args) {
+        Scanner mel = new Scanner (System.in);
+        
+        //Ternary Operator
+        long m,j;
+        System.out.println("Hitung Jumlah Pengeluaran Saya dalam Seminggu");
+        System.out.print("Masukkan jumlah pengeluaran dalam Sehari : ");
+        m = mel.nextLong();
+           
+        j = (m == 30000) ? /*true*/(m*7) : /*false*/(m-m);
+           
+        System.out.println("Pengeluaran Seminggu : " + j);    
+    }
+}
+    
+
+ 

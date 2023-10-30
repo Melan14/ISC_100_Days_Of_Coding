@@ -1,9 +1,7 @@
-package days19;
+package melan;
 
-public class Days19 {
+public class Melan {
     public static void main(String[] args) {
-
-//SwitchCase2
 
         System.out.println("Mata Kuliah Semester 1 Informatika C");
         
@@ -28,4 +26,3 @@ public class Days19 {
              }
         }
     }
-    

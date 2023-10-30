@@ -1,0 +1,25 @@
+package days3;
+
+public class Days3{
+    
+    public static void main(String[] args) {
+        Byte umur = 18;
+        Short b = 14;
+        Integer c = 2005;
+        String d = "Melan";
+        Float e = 6285242538253.f;
+        Double f = 156.6;
+        Character g = 'A';
+        Boolean h = true;
+        
+        System.out.println("Umur : " + umur);
+        System.out.println("Tanggal Lahir : " + b);
+        System.out.println("Tahun Lahir : " + c);
+        System.out.println("Nama : " + d);
+        System.out.println("No.HP : " + e);
+        System.out.println("Tinggi Badan : " + f + "CM");
+        System.out.println("Golongan Darah : "  + g);
+        System.out.println("Status Mahasiswa : " + h);
+  }
+}
+

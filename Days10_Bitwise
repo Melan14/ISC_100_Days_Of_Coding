@@ -1,11 +1,7 @@
 package Melan;
-import java.util.Scanner;
 
-public class Main{
-    
+public class Melan{
     public static void main(String[] args) {
-        
-        //Operator_bitwise10
         
         String binary [ ] = {
             "0000","0001","0010","0011","0100","0110","0111",
@@ -32,7 +28,6 @@ public class Main{
         // bitwise_NOT
         int not = (~I & U) | (I & ~U);
         System.out.println(" binary not = " + binary [not]);
-        
         
     }
 }

@@ -1,0 +1,17 @@
+package days22;
+
+import java.util.Scanner;
+public class Days22 {
+       public static void main(String[] args) {
+       //TernaryOperator
+       Scanner wa = new Scanner (System.in);
+           System.out.println("Saya tidak suka bilangan ganjil");
+           System.out.println("saya akan mengubah bilangan ganjil menjadi bilangan genap");
+           System.out.print("Masukkan angka : ");
+           int a = wa.nextInt();
+           
+           int b = (a % 1 != 0 || a % 2 != 0 ) ? (a+1) : (a+2);
+           System.out.println(b + " adalah bilangan genap");    
+           
+    } 
+}

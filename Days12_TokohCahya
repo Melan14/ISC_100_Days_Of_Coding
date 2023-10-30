@@ -1,7 +1,8 @@
 package Melan;
+
 import java.util.Scanner;
 
-public class Main{
+public class Melan{
     
     public static void main(String[] args) {
         Scanner mel = new Scanner (System.in);

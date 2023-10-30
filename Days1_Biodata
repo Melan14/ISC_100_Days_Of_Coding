@@ -1,6 +1,8 @@
+package Days1;
+
 import java.util.Scanner;
-public class Main {
-    
+
+public class days1 {
     public static void main(String[] args) {
         String nama = "Melani Raita";
         String NIM = "D0223028";

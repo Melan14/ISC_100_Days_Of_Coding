@@ -1,7 +1,5 @@
 package Days1;
 
-import java.util.Scanner;
-
 public class days1 {
     public static void main(String[] args) {
         String nama = "Melani Raita";

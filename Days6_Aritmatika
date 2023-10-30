@@ -1,11 +1,9 @@
 package Melan;
+
 import java.util.Scanner;
 
 public class Main{
-    
     public static void main(String[] args) {
-
-//Days6_aritmatika
 
         int a = 14;
         int b = 31;

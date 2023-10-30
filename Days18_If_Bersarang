@@ -1,8 +1,6 @@
-package Melan;
-import java.util.Scanner;
+package melan;
 
-public class Main{
-    
+public class Melan{
     public static void main(String[] args) {
         
         System.out.println("Nama lengkap saya adalah");
@@ -17,8 +15,7 @@ public class Main{
                 System.out.println("Melan");
             }
            }else{
-               System.out.println("Melani Raita");
-            
+               System.out.println("Melani Raita"); 
         }
     }      
 }

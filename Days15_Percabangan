@@ -1,8 +1,7 @@
-package Melan;
+package melan;
 import java.util.Scanner;
 
-public class Main{
-    
+public class Melan{
     public static void main(String[] args) {
         Scanner wa = new Scanner (System.in);
         
@@ -25,6 +24,6 @@ public class Main{
     }else{
         System.out.print("Nilai rata-rata MK =");
         System.out.println(x/3);
-    }
+        }
     }       
 }

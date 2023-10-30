@@ -1,7 +1,7 @@
-package days20;
+package melan;
 
 import java.util.Scanner;
-public class Days20 {
+public class Melan {
     public static void main(String[] args) {
          Scanner mel = new Scanner (System.in);
         

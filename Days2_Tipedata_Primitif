@@ -1,6 +1,6 @@
-import java.util.Scanner;
+package days2;
+
 public class Main{
-    
     public static void main(String[] args) {
         char GD = 'o';
         short tgllahir = 14;

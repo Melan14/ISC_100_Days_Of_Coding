@@ -1,8 +1,8 @@
-package Melan;
+package melan;
+
 import java.util.Scanner;
 
-public class Main{
-    
+public class Melan{
     public static void main(String[] args) {
         Scanner mel = new Scanner (System.in);
         
@@ -17,9 +17,9 @@ public class Main{
             System.out.println( "Sore");
         }else if ( a >= 19.00 && a <= 24.00 || a >= 00.00 && a <= 00.59){
             System.out.println( "Malam");
-       }else if  (a >= 01.00 && a <= 04.59){
+        }else if  (a >= 01.00 && a <= 04.59){
             System.out.println("Dini Hari");
-      }else {
+        }else {
           System.out.println("Tidak ada yang benar");
       }
         

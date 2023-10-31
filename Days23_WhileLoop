@@ -1,0 +1,15 @@
+package Days23;
+
+public class Main{
+    public static void switchcase (String[] args) {
+        System.out.println("Buatlah angka kelipatan 20");
+        
+        int a = 20;
+        
+        while (a <= 100) {
+            System.out.println(a);
+            
+            a+= 20;
+           }
+    }      
+}

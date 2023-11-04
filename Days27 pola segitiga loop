@@ -1,0 +1,21 @@
+package days27;
+
+import java.util.Scanner;
+
+public class Days27 {
+    public static void main(String[] args) {
+    Scanner melani = new Scanner(System.in);
+
+    System.out.print("Masukkan tinggi segitiga: ");
+    int tinggi = melani.nextInt();
+    for (int bc= 0; bc < tinggi; bc++) {
+    for (int a = 0; a< tinggi - bc - 1; a++) {
+    System.out.print(" ");
+    }
+    for (int k = 0; k < 2 * bc + 1; k++) {
+    System.out.print("*");
+    }
+     System.out.println();
+     }
+    }
+}

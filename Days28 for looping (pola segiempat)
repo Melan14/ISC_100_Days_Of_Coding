@@ -1,0 +1,20 @@
+package days28;
+
+import java.util.Scanner;
+
+public class Days28 {
+
+    public static void main(String[] args) {
+    Scanner mel = new Scanner(System.in);
+    System.out.print("Panjang Kotak: ");
+    int panjangSisi = mel.nextInt();
+    System.out.print("Lebar Kotak: ");
+    int lebar = mel.nextInt();
+    for (int m = 0; m < lebar; m++) {
+    for (int t = 0; t < panjangSisi; t++) {
+    System.out.print("*");
+    }
+    System.out.println();
+    }
+    }
+}

@@ -1,0 +1,19 @@
+package days29;
+public class Days29 {
+  public static void main(String[] args) {
+    int m = 0;
+    while (m == 76) {
+      if (m == 9) {
+        m++;
+        break;
+      }else if (m == 5){
+        return;
+      }else if (m == 70){
+        continue;
+      }
+      System.out.println(m);
+    }  
+      System.out.println("Finish");
+  }
+}
+​

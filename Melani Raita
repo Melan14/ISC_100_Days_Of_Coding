@@ -1,0 +1,57 @@
+package array;
+import java.util.Scanner;
+
+public class Array {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Membuat array 1D tipe data primitif
+        int[] a = new int[5]; 
+
+        System.out.println("Masukkan 5 nilai integer Array1D:");
+        for (int i = 0; i < a.length; i++) {
+            a[i] = scanner.nextInt();
+        }
+
+        // Membuat array 1D tipe data non-primitif (String)
+        String[] b = new String[5]; 
+
+        System.out.println("Masukkan 5 nilai string Array1D:");
+        for (int i = 0; i < b.length; i++) {
+            b[i] = scanner.next();
+        }
+
+        // Menampilkan nilai array 1D
+        System.out.println("Nilai integer Array1D :");
+        for (int value : a) {
+            System.out.print(value + " ");
+        }
+        System.out.println();
+
+        System.out.println("Nilai string Array1D :");
+        for (String value : b) {
+            System.out.print(value + " ");
+        }
+        System.out.println();
+
+        // Membuat array 2D tipe data primitif (int)
+        int[][] c = new int[2][2]; 
+
+        System.out.println("Masukkan 4 nilai integer untuk Array2D:");
+
+        for (int i = 0; i < c.length; i++) {
+            for (int j = 0; j < c[i].length; j++) {
+                c[i][j] = scanner.nextInt();
+            }
+        }
+
+        // Menampilkan nilai array
+        System.out.println("Nilai Array2D:");
+        for (int i = 0; i < c.length; i++) {
+            for (int j = 0; j < c[i].length; j++) {
+                System.out.print(c[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}

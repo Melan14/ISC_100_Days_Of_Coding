@@ -1,0 +1,125 @@
+package t2struktudata;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+import java.util.stream.IntStream;
+
+public class T2StruktuData {
+ public static void main(String[] args) {
+      //1.buatlah Array 1D dengan 8 tipe data
+      byte a = 4;
+      int b = 14;
+      short c = 31;
+      long d = 2005;
+      char e = 'P';
+      String f = "Melan";
+      float g = 60.1f;
+      double h = 156.9;
+      
+      
+    //2.Membuat dan mencetak Array 1D tipe data primitif dengan 5 metode
+       System.out.println("menggunakan deklarasi langsung");
+            int [] i = {1,2,3};
+            System.out.println(Arrays.toString(i));
+            
+       System.out.println(" keyword java ");
+            int [] j = new int[3];
+            i[0]=1;
+            i[1]=2;
+            i[2]=3;
+            System.out.println(Arrays.toString(i));
+            
+       System.out.println("Menggunakan Loop");
+            int [] loop = new int [3];
+            for (int k = 0; k < loop.length; k++) {
+                loop[k]=k+1;
+     }
+                    System.out.println(Arrays.toString(loop));
+                    
+       System.out.println("Menggunakan Arrays.fill()");
+            int [] l = new int [3];
+            Arrays.fill(l, 2);
+            System.out.println(Arrays.toString(i));
+            
+       System.out.println("Menggunakan Metode Utilitas");
+            int [] m = IntStream.rangeClosed(1, 5).toArray();
+            System.out.println(Arrays.toString(m));
+            
+    //3. Array 2D input menggunakan keyboard
+            Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Masukkan jumlah baris dan kolom: ");
+        int n = scanner.nextInt();
+        int[][] matrix = new int[n][n];
+
+        System.out.println("Masukkan elemen matriks:");
+
+        for (int z = 0; z < n; z++) {
+            for (int s = 0; s < n; s++) {
+                matrix[z][s] = scanner.nextInt();
+            
+            }
+        }
+
+            
+    // Array List
+      //a.Array tipe data wrapper
+        ArrayList<Integer> numbers = new ArrayList<>();
+
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(3);
+
+        System.out.println("ArrayList numbers: " + numbers);
+
+        // Menghapus elemen
+        numbers.remove(1);
+
+        System.out.println("ArrayList numbers setelah dihapus: " + numbers);
+
+        // Mengakses elemen
+        int firstElement = numbers.get(0);
+        System.out.println("Elemen pertama: " + firstElement);
+
+        // Mengubah elemen
+        numbers.set(0, 100);
+        System.out.println("ArrayList numbers setelah diubah: " + numbers);
+
+        // Menghitung jumlah elemen
+        System.out.println("Jumlah elemen: " + numbers.size());
+
+        // Memeriksa keberadaan elemen
+        boolean containsTwo = numbers.contains(2);
+        System.out.println("Apakah ArrayList mengandung angka 2? " + containsTwo);
+
+        // Mengosongkan ArrayList
+        numbers.clear();
+        System.out.println("ArrayList numbers setelah dikosongkan: " + numbers);
+        
+      //b.ArrayList bertipe data Integer dengan add(), get(), set(), remove(), size()
+         ArrayList<Integer> numbers2 = new ArrayList<>();
+
+        // Menambahkan elemen ke ArrayList
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(30);
+
+        // Mendapatkan elemen dari ArrayList
+        System.out.println("Elemen pada indeks ke-0: " + numbers.get(0));
+        System.out.println("Elemen pada indeks ke-1: " + numbers.get(1));
+        System.out.println("Elemen pada indeks ke-2: " + numbers.get(2));
+
+        // Mengubah elemen dalam ArrayList
+        numbers.set(1, 25);
+        System.out.println("ArrayList setelah mengubah elemen indeks ke-1: " + numbers);
+
+        // Menghapus elemen dari ArrayList
+        numbers.remove(0);
+        System.out.println("ArrayList setelah menghapus elemen indeks ke-0: " + numbers);
+
+        // Mendapatkan ukuran ArrayList
+        System.out.println("Ukuran ArrayList: " + numbers.size());
+
+    }
+}
+        
